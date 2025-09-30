@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>發票累積進度</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>發票累積進度</h1>
+    <input type="number" id="amountInput" placeholder="輸入發票金額">
+    <button onclick="updateProgress()">更新進度</button>
+    <canvas id="progressChart"></canvas>
+    <p id="progressText"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
